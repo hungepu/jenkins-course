@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'gradle:jdk8-alpine'
-            label 'Built-In'
+            label 'linux-slave'
         }
     }
     stages {
